@@ -1,0 +1,27 @@
+String str1 = "abc";
+String str2 = "abc;
+String str3 = new String("abc");
+
+Interning
+
+both str1 and str2 which are reference variables point to the same value string "abc"
+
+for str3 new String would be made ,so str3 would point to different string "abc"
+
+String str = "abc";
+for(char c = 'a' to 'z'){
+    str+=ch;
+}//run 26*n times
+
+copying is done at each stage
+abc
+abca
+abcab
+...
+abcab...z
+
+m*n: m:length of string and n is the number of characters to add.
+if both are big then we will have quadratic time complexity.
+
+So it will be very inefficient.
+So here we will not use STrings we will use StringBuilder.
