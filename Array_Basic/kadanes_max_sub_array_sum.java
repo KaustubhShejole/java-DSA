@@ -1,3 +1,5 @@
+package Array_Basic;
+
 import java.util.*;
 public class kadanes_max_sub_array_sum {
 

@@ -1,3 +1,5 @@
+package Array_Basic;
+
 import java.util.*;
 public class Subarrays {
 

@@ -1,3 +1,5 @@
+package Array_Basic;
+
 import java.util.*;
 public class MaxSubarraySumPrefixArray {
     //optimized O(n^2)
@@ -35,6 +37,6 @@ public class MaxSubarraySumPrefixArray {
     public static void main(String args[])
     {
         int numbers[] = {1,-2,6,-1,3};
-        System.out.println("MaxSubArraySum = "+max_sub_array_prefix_sum(numbers));
+        System.out.println("Array_Basic.MaxSubArraySum = "+max_sub_array_prefix_sum(numbers));
     }
 }
