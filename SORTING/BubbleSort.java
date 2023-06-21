@@ -29,6 +29,7 @@ public class BubbleSort {
         int numbers[] = {8,4,9,10,1};
         bubblesort(numbers);
         ArraysCC arraysCC = new ArraysCC();
+        System.out.println("Sorted array is as follows: ");
         arraysCC.print(numbers);
     }
 }
