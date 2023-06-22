@@ -1,0 +1,8 @@
+bit manipulation at lower level.
+
+Binary Add &
+Binary OR |
+Binary XOR ^
+Binary One's Complement ~
+Binary Left Shift <<
+Binary Right Shift >>
