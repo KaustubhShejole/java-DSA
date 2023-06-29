@@ -1,0 +1,45 @@
+1. MergeSort
+
+    6 3 9 5 2 8
+    Approach:
+    1. Divide
+        a. Calculate mid.
+        b. mid will divide a big array into right and left array.
+            Divide till we get the easiest problem.
+            Or let us say one-size array.
+            Array with single element is already sorted.
+            Two ways to calculate index:
+            1. mid = (si+ei)/2
+            2. mid = si+ (ei-si)/2
+                2nd one is preferable as we can avoid overflow using it.
+    2. mergeSort(left)
+       mergeSort(right)
+    3. Consolidate the left and right part or
+        to merge the left and right part.
+
+2. QuickSort
+    1. Average Case time Complexity = O(nlogn)
+       Worst Case time Complexity = O(n^2)
+       Space Complexity = O(n)
+
+    Pivot and Partition:
+    1. Pivot
+        random
+        median
+        first
+        last
+        Most of the time we take last element as a pivot.
+
+    2. Partition
+        Main Step
+
+    3. Call QuickSort(left_part)
+            QuickSort(right_part)
+            Base Case: Single element is sorted.
+            //Worst Case occurs when pivot is always the smallest
+            or the largest element.
+            Taking pivot as the last element: Ascending order or descending order gives the worst case time complexity.
+
+            Partition Function:
+                Loop will run
+                (n-1) + (n-2) + (n-3) + ... + 1 = n(n-1)/2 = O(n^2)
