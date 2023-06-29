@@ -16,12 +16,13 @@ Construtor Chaining
     Within same class: It can be done using this() keyword for constructors in the same class
     From base class: by using super() keyword to call the constructor from the base class.
     Constructor chaining occurs through inheritance. A sub-class constructor’s task is to call super class’s constructor first.
-    This ensures that the creation of sub class’s object starts with the initialization of the data members of the superclass. There could be any number of classes in the inheritance chain. Every constructor calls up the chain till the class at the top is reached.
+    This ensures that the creation of sub class’s object starts with the initialization of the data members of the superclass. 
+    There could be any number of classes in the inheritance chain. Every constructor calls up the chain till the class at the top is reached.
     Rules of constructor chaining :
 
-    The this() expression should always be the first line of the constructor.
-    There should be at-least be one constructor without the this() keyword (constructor 3 in above example).
-    Constructor chaining can be achieved in any order.
+    1. The this() expression should always be the first line of the constructor.
+    2. There should be at-least be one constructor without the this() keyword (constructor 3 in above example).
+    3. Constructor chaining can be achieved in any order.
 
     What happens if we change the order of constructors?
     Nothing, Constructor chaining can be achieved in any order
