@@ -1,0 +1,99 @@
+objects are entities in the real world
+classes are the group of these entities
+
+Constructors
+    Constructor is a special method which is invoked automatically
+    at the time of object creation.
+    Constructors have the same name as class or structure.
+    Constructors don't have a return type.(Not even void)
+    Constructors are only called once, at object creation.
+    Memory allocation happens when constructor is called.
+
+    1. Non-parameterized :
+        Student(){
+
+        }
+    2. Parameterized:
+        Student(int roll){
+            this.roll = roll;
+        }
+    3. Copy Constructor:
+        By default in C++
+        Student(Student s1){
+            this.name = s1.name;
+            this.roll = s1.roll;
+        }
+
+        Shallow Copy : Changes reflect.
+
+        Deep Copy : Changes don't reflect.
+                    Make a completely new array.
+
+    Destructors: We don't write destructors in JAVA because we have
+                garbage collector in JAVA.
+
+Encapsulation is defined as the wrapping up of data and methods under a
+single unit. It also implements data hiding.
+
+Inheritance : Inheritance is when properties and methods of base class are
+            passed on to a derived class.
+
+            1. Single Level Inheritance
+            2. Multi level Inheritance
+            3. Hierarchical Inheritance
+            4. Hybrid Inheritance
+            5. Multiple Inheritance :
+                Directly possible in C++ using classes
+                Possible in JAVA using interfaces
+
+            Calling of Constructors:
+            A->B->C->...(In the order of inheritance)
+
+Abstraction : Hiding all the unnecessary details and showing only
+            the important parts to the user.
+            Only idea not implemented
+            1. Abstract Classes
+                a. Cannot create an instance of abstract class.
+                b. Can have abstract/non-abstract methods
+                c. Can have constructors.
+
+            2. Interfaces
+                a. Interface is a blueprint of a class.
+                b. implements multiple inheritance.
+                    A       B
+                     -    -
+                        C
+                c. implements total abstraction.
+
+                All methods are public, abstract and without implementation.
+                Used to achieve total abstraction.
+                Variables in the interface are final,public and static.
+
+                interface --> implements
+
+Polymorphism: 2 Types of Polymorphism
+                a. Compile Time Polymorphism
+                    Method Overloading:
+                        Multiple functions with same name but different
+                        parameters.
+                b. Run Time Polymorphism
+                    Method Overriding
+
+Packages:
+    Package is a group of similar types of classes,interfaces and sub-packages.
+
+    1. Inbuilt Package (util package of Java)
+    2. User-defined package
+
+Static Keyword:
+    static keyword in Java is used to share the same variable or method of
+    a given class.
+    - Properties
+    - Functions
+    - Blocks
+    - Nested Classes
+Super Keyword
+    super keyword is used to refer immediate parent class object.
+    - to access parent's properties
+    - to access parent's functions
+    - to access parent's constructor
