@@ -1,2 +1,27 @@
 Lazy Copy
+    Lazy Copy
+    A lazy copy can be defined as a combination of both shallow copy and deep copy.
+    The mechanism follows a simple approach – at the initial state, shallow copy approach is used.
+    A counter is also used to keep a track on how many objects share the data.
+    When the program wants to modify the original object, it checks whether the object is shared or not.
+    If the object is shared, then the deep copy mechanism is initiated.
 Construtor Chaining
+    Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
+
+    One of the main use of constructor chaining is to avoid duplicate codes while having multiple constructor
+    (by means of constructor overloading) and make code more readable.
+    Constructor chaining can be done in two ways:
+
+
+    Within same class: It can be done using this() keyword for constructors in the same class
+    From base class: by using super() keyword to call the constructor from the base class.
+    Constructor chaining occurs through inheritance. A sub-class constructor’s task is to call super class’s constructor first.
+    This ensures that the creation of sub class’s object starts with the initialization of the data members of the superclass. There could be any number of classes in the inheritance chain. Every constructor calls up the chain till the class at the top is reached.
+    Rules of constructor chaining :
+
+    The this() expression should always be the first line of the constructor.
+    There should be at-least be one constructor without the this() keyword (constructor 3 in above example).
+    Constructor chaining can be achieved in any order.
+
+    What happens if we change the order of constructors?
+    Nothing, Constructor chaining can be achieved in any order
