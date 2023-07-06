@@ -1,0 +1,12 @@
+Trees
+Graphs
+Dynamic Programming
+
+
+smaller problem.
+
+Recursion is a method of solving a computational problem where the
+solution depends on solutions to smaller instances of the same problem.
+
+Base Case : The Recursion ends here.
+

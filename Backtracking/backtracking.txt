@@ -1,0 +1,8 @@
+1.n-queens
+2.sudoku solver
+grid ways
+
+Types of Backtracking
+1. Decision yes/no with solution
+2. Optimization optimized solution
+3. Enumeration number of solutions

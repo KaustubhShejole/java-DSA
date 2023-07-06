@@ -1,0 +1,34 @@
+Order Complexity Analysis
+    Amount of Space or Time taken up by an algorithm/code as
+    funcion of input size. NOT the actual time taken.
+
+1. Bubble Sort : best case time complexity = O(n^2)
+                 worst case time complexity = O(n^2)
+2. Modified bubble Sort : best case time complexity = O(n)
+3. Binary Search : O(logn)
+
+Recursive Algorithms
+
+1. Total work done = (number of calls)*(work in each call)
+2. Recurrence Equation
+3. Space Complexity = (maximum_depth_in_recursion_tree * memory in each call)
+a. Linear f(n) = x + f(n-1)
+b. Divide and Conquer f(n) = x + 2f(n/2)
+
+T(n) = T(n-1) + T(n-2) + k : O(2^n)
+
+MergeSort :
+    f(n) = 2f(n/2) + merge_function
+    merge_function has O(n) time complexity
+    f(n) = 2f(n/2) + n
+    So Time Complexity = O(nlogn)
+    Space Complexity = O(n) //Temporary array
+
+Online Judges:
+    1s time allowed - 10^8 operations
+    e.g. Array n=10^6
+            Linear Search 10^6 operations Allowed
+            Binary Search 20 operations approximately
+         Array n=10^9
+            Linear Search 10^9 operations Time Limit Exceeded
+            Binary Search 30 operations approximately
