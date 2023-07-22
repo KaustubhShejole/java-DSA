@@ -1,0 +1,12 @@
+Left Subtree Nodes < Root
+Right Subtree Nodes > Root
+Left and Right Subtrees are also BST with no duplicates
+
+Assumptions: Binary Search Tree is without duplicates.
+inorder traversal : we get a sorted sequence in ascending order
+
+Binary Search Tree makes search efficient. Worst case in case of skew tree.
+        O(H) whereH is the height of the tree.
+
+Most problems will be solved using recursion i.e. by dividing into
+subproblems and making recursive calls on subtrees.

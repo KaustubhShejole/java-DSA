@@ -1,0 +1,2 @@
+What is a Linked List?
+NODE: data and next(reference or pointer)

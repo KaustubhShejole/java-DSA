@@ -3,7 +3,7 @@
 
 Array a. fixed size
       b. primitive data types can be stored
-ArrayList a. dynamic size
+ArrayListPackage a. dynamic size
           b. primitive data types cannot be stored directly
 
 1. Add Element O(1)
@@ -12,4 +12,4 @@ ArrayList a. dynamic size
 4. Set Element at Index O(n)
 5. Contains Element O(n)
 
-Size of ArrayList .size()
+Size of ArrayListPackage .size()

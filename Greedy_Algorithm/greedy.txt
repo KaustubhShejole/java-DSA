@@ -1,0 +1,15 @@
+Most of the Greedy Algorithms
+    1. Optimization
+    2. Sorting
+    3. fixed rule not present
+    4. Not realized
+
+Definition of Greedy Algorithm:
+    Greedy algorithms is the problem solving technique
+    where we make the locally optimum choice at each
+    stage and hope to achieve a global optimum.
+
+Pros: Simple and Easy
+    Good enough Time Complexity
+Cons: A lot of time global, optimum not achieved.
+
